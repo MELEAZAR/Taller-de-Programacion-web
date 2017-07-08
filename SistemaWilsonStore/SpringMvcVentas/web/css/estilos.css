@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+
+}
+.cabecera{
+    background: #9acfea;
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 100%;
+    max-width: 800px;	
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cabe{
+
+    background: rgba(0,0,0,0.2);
+    width:95%;
+    height: 160px;
+    max-width: 752px;	
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.section_form{
+    margin-top: 60px;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+.section_formPrincipal{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: #bce8f1;
+    
+}
+.imgcabe{
+    background: url(../imagenes/invent3.jpg)center left no-repeat;  
+    width: 150px;
+    height: 147px;
+    float: left;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+.tituloCabe{
+    float: right;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.imgiconoMEnu{
+    background: url(../imagenes/2.png)center left no-repeat;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    margin-left: 3%;
+}
+
+
+
+/* ------------------------------------LOGIN----------------------------- */
+
+.bodyLogin{
+    background: #dedede;
+    display: flex;
+    min-height: 100vh;
+}
+form{
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    background: #f3f3f3;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0.2)
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.5)
+}
+input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background: linear-gradient(#ffda63,#ffb940);
+    border: 0;
+    color: brown;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+input[type="submit"]:hover{
+    opacity: 1;
+}
+input[type="submit"]:active{
+    transform: scale(0.95);
+}
+
+@media(max-width:780px){
+    form{
+        width: 75%;
+    }
+}
+@media(max-width:480px){
+    form{
+        width: 95%;
+    }
+}
+
+/*----------------------------FORMULARIOS---------------------------*/
+.tituloForm{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    color:#990000;
+}
+
+
+.input-48{
+    width: 40%;
+}
+.input-48_1{
+    width: 40%;
+    height: 50px;
+    padding-bottom: 5px;   
+    font-weight: bold;
+    font-size: 18px;
+}
+.input-100{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#039;
+}
+.btn-enviar{
+    background: lightslategray;
+    color: #fff;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 140px;
+    font-weight: bold ;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.btn-enviar2{
+    width: 90%;
+    background: lightslategray;
+    color: #fff;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold ;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn-enviar:active{
+    transform: scale(1.05)
+}
+.btn-enviar2:active{
+    transform: scale(1.05)
+}
+.form__link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+.contenedor-inputs{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.submitFormu{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.btn-enviar100{
+    background: lightslategray;
+    color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold ;
+    width: 100%;
+    margin-bottom: 5px;
+    /*    margin-left: auto;
+        margin-right: auto; */
+
+}
+.form-DOBLE{
+    width: 100%;
+    max-width: 800px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /*    justify-content: space-between;
+        justify-content: center;*/
+    background: #f3f3f3;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.form-MEDIO{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    /*    justify-content: space-between;
+        justify-content: center;*/
+    background: #f3f3f3;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.input-label{
+    width: 48%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#039;
+    float: left;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.input-cajaTe{
+    width: 95%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#039;
+    float: left;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 5px;
+}
+.input-48_1-{  
+    width: 48%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#039;
+    margin-bottom: 10px;
+    float: right;
+    padding-right:  0px;
+    margin-right:  0px;
+
+}
+.input-48_1_1{
+    width: 23%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#039;
+    margin-bottom: 10px;
+    float: right;
+    padding-right:  0px;
+    margin-right:  0px;
+
+}
+
+.input-48_1_2{
+    width: 25%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#039;
+    margin-bottom: 10px;
+    float: right;
+    padding-right:  0px;
+    margin-right:  0px;
+    text-align: left;
+
+}
+.input-48_2{
+    width: 45%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#039;
+    margin-bottom: 10px;
+    float: left;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+.input-48_2_1{
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#039;
+    margin-bottom: 10px;
+    float: left;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+.input-48_2_2{
+    width: 25%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#039;
+    margin-bottom: 10px;
+    float: left;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+.input-100-{ 
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#039;
+    margin-bottom: 10px;
+}
+.usuarioB{
+    position: absolute;
+    color: yellow;
+    padding: 0px;
+    margin: 0px;
+    padding-left:  10px;
+}
+.divError{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background: crimson;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    color: #FFF;
+    font-weight: bold;
+}
+.tablaForm{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.tableR{
+    width: 98%;
+    margin: 0px;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contenedorError{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 35px;
+    border: 1px solid rgba(0,0,0,0.2);
+    background: #f3f3f3;
+    width: 50%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+#computadora{
+    display: none;
+}
+.labelTexto{
+	margin-bottom: 5px;
+}
+/*-------------------------------FOOTER----------------------------*/
+
+footer {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    /*line-height: 15px;*/
+    color: #FFF;
+    background-color: #333;
+    position: absolute;
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+    padding-top:15px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    max-width: 800px;
+
+}
+.icono__footer_d{
+    float: right;
+    margin-right: 20px;
+    padding-top: 15px;
+    margin-right: 25px;
+}
+.texto_footer{
+   float: left;
+   margin-top: 15px;
+   margin-left: 25px;
+   text-align: center;
+}
+
+footer h3{
+    color: #FFF;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+.footerTitu2{
+    margin-top: -4px;
+}
+
+
+#img_icono:hover{
+    border-radius:3px;
+    transition:all 300ms ease;
+    cursor: pointer;
+}
